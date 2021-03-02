@@ -28,27 +28,27 @@
 				<extensions>true</extensions>
 				<!-- Added for Cloud Hub Specific -->
 	<configuration>
-				
 		<cloudHubDeployment>
             <uri>https://anypoint.mulesoft.com</uri>
-            <muleVersion>${app.runtime}</muleVersion>
-            <username>${anypoint.username}</username>
-            <password>${anypoint.password}</password>
-            <businessGroup>${businessGroup}</businessGroup>
+            <muleVersion>4.3.0</muleVersion>
+            <username>kmr_arun_kumar</username>
+            <password>Aaniya@@2020</password>
+            <businessGroup>LnD</businessGroup>
            <!-- <workers>${workers}</workers> --> 
            <workers>1</workers>
             <!-- <workerType>${workerType}</workerType>  -->
-            	<workerType>1.3</workerType>
-            <region>us-west-1</region>
-            <environment>${environment}</environment>
-            <applicationName>${applicationName}</applicationName>
-            <properties>
+            	<workerType>vCores</workerType>
+            <region>US East (N. Virginia)</region>
+            <environment>DEV</environment>
+            <applicationName>azure_devops_cicd_poc</applicationName>
+      <!--       <properties>
                 <mule.env>${mule.env}</mule.env>
                 <encrypt.key>${encrypt.key}</encrypt.key>
-				<anypoint.platform.client_id>${anypoint.platform.client_id}</anypoint.platform.client_id>      <anypoint.platform.client_secret>${anypoint.platform.client_secret}</anypoint.platform.client_secret>
+				<anypoint.platform.client_id>${anypoint.platform.client_id}</anypoint.platform.client_id>
+				<anypoint.platform.client_secret>${anypoint.platform.client_secret}</anypoint.platform.client_secret>
                 <api.id>${ilg.api.version}</api.id>
 				<anypoint.platform.config.analytics.agent.enabled>true</anypoint.platform.config.analytics.agent.enabled>
-			</properties>
+			</properties>  -->
         </cloudHubDeployment>
 			<executions>
                         <execution>

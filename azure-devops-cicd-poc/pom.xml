@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mycompany</groupId>
-	<artifactId>azure_devops_cicd_poc</artifactId>
+	<artifactId>azure-devops-cicd-poc</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule-application</packaging>
-	<name>azure_devops_cicd_poc</name>
+	<name>azure-devops-cicd-poc</name>
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -40,7 +40,7 @@
             	<workerType>vCores</workerType>
             <region>US East (N. Virginia)</region>
             <environment>DEV</environment>
-            <applicationName>azure_devops_cicd_poc</applicationName>
+            <applicationName>azure-devops-cicd-poc</applicationName>
       <!--       <properties>
                 <mule.env>${mule.env}</mule.env>
                 <encrypt.key>${encrypt.key}</encrypt.key>

@@ -34,10 +34,6 @@
             <username>kmr_arun_kumar</username>
             <password>Aaniya@@2020</password>
             <businessGroup>LnD</businessGroup>
-           <!-- <workers>${workers}</workers> 
-           <workers>1</workers>
-            <!-- <workerType>${workerType}</workerType>
-            	<workerType>vCores</workerType>--> 
             <region>us-east-1</region>
             <environment>DEV</environment>
             <applicationName>azure-devops-cicd-poc</applicationName>

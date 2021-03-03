@@ -38,7 +38,7 @@
            <workers>1</workers>
             <!-- <workerType>${workerType}</workerType>  -->
             	<workerType>vCores</workerType>
-            <region>US East</region>
+            <region>us-east-1</region>
             <environment>DEV</environment>
             <applicationName>azure-devops-cicd-poc</applicationName>
       <!--       <properties>
